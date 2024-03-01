@@ -1,0 +1,36 @@
+@media only screen and (max-width: 1125px){
+    .nav-list{
+        flex-direction: column;
+    }
+    .navbar{
+        flex-direction: column;
+        height: 400px;
+        transition: all 0.5s ease-out;
+    }
+    .rightNav{
+        text-align: center;
+    }
+    #search{
+        width: 100%;
+    }
+    .burger{
+        display: block;
+    }
+    .nav-height-resp{
+        height: 70px;
+    }
+    .visibility-resp{
+        opacity: 0;
+    }
+   
+    .btn-dark{
+        margin-left: 200px;
+        /* display: flex;
+        justify-content: center;
+        text-align: center; */
+        
+    }
+    .box-main{
+        width: 100%;
+    }
+}
